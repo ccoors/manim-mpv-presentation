@@ -1,0 +1,17 @@
+[project]
+name = "manim-mpv-presentation"
+version = "0.1.0"
+description = "A simple presentation application for Manim using the mpv media player"
+authors = [
+    {name = "Christian Friedrich Coors", email = "me@ccoors.de"},
+]
+dependencies = [
+    "mpv>=1.0.4",
+]
+requires-python = ">=3.11,<3.12"
+license = {text = "GPL-3.0-or-later"}
+
+[tool.pdm.dev-dependencies]
+test = [
+    "manim>=0.17.3",
+]
