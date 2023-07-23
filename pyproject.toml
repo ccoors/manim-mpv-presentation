@@ -14,4 +14,5 @@ license = {text = "GPL-3.0-or-later"}
 [tool.pdm.dev-dependencies]
 test = [
     "manim>=0.17.3",
+    "setuptools>=68.0.0",
 ]
